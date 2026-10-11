@@ -1,0 +1,8 @@
+{
+  "LiteBuildConfig": {
+    "contents": ["files"],
+    "output_dir": "dist",
+    "apps": ["lab", "tree", "repl"],
+    "no_sourcemaps": true
+  }
+}

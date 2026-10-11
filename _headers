@@ -1,0 +1,6 @@
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+
+/service-worker.js
+  Cache-Control: no-cache

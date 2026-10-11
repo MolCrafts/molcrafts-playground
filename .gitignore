@@ -1,0 +1,8 @@
+dist/
+.venv/
+.wrangler/
+__pycache__/
+*.egg-info/
+.jupyterlite.doit.db
+.cache/
+.ipynb_checkpoints/
