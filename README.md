@@ -47,17 +47,12 @@ uv pip install -r requirements.txt
 Cloudflare Pages it installs `requirements.txt` with `pip`, then runs
 `jupyter lite build`, `scripts/extend_lock.py`, and copies `_headers` into
 `dist/`. The Pages build image reads `.python-version` and uses Python 3.12.
-`jupyter lite serve` does not send COOP/COEP. Check those headers with:
-
-```bash
-npx wrangler pages dev dist
-```
 
 ## Deploy
 
-Cloudflare Pages is connected to this GitHub repository and builds it
-itself. A push to `main` runs `./scripts/build.sh` and publishes `dist/`.
-There is no GitHub Action.
+The Pages project `molcrafts-playground` is connected to this GitHub
+repository. A push to `master` runs `./scripts/build.sh` and publishes
+`dist/`. There is no GitHub Action and no direct upload.
 
 Production: <https://molcrafts-playground.pages.dev/>
 
